@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://api.itxman.live:8888"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "https://api.itxman.live"
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.itxman.live"
 
 export function get(path: string) {
